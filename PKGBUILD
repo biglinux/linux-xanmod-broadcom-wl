@@ -4,7 +4,7 @@
 # Based on the file created for Arch Linux by: Frank Vanderham
 
 _linuxprefix=linux-xanmod
-_kernver=$(find /usr/lib/modules -type d -iname 6.6.15*xanmod* | rev | cut -d "/" -f1 | rev)
+_kernver="$(cat /usr/src/${_linuxprefix}/version)"
 pkgname=$_linuxprefix-broadcom-wl
 _pkgname=broadcom-wl
 pkgver=6.30.223.271
