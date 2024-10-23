@@ -7,7 +7,7 @@ _linuxprefix=linux-xanmod
 _module=broadcom-wl
 pkgname="${_linuxprefix}-${_module}"
 pkgver=6.30.223.271
-pkgrel=61141
+pkgrel=61151
 pkgdesc='Broadcom 802.11 Linux STA wireless driver'
 arch=('x86_64')
 url='https://www.broadcom.com/support/download-search/?pf=Wireless+LAN+Infrastructure'
